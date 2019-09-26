@@ -1,17 +1,28 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div class="fake">
+      <template name="cards">
+        <img alt="Vue logo" src="./assets/logo.png" />
+        <img alt="Vue logo" src="./assets/logo.png" />
+        <img alt="Vue logo" src="./assets/logo.png" />
+        <img alt="Vue logo" src="./assets/logo.png" />
+        <img alt="Vue logo" src="./assets/logo.png" />
+        <img alt="Vue logo" src="./assets/logo.png" />
+      </template>
+      <template name="bullets">
+
+      </template>
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import slider from './components/slider.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    slider
   }
 }
 </script>
@@ -24,5 +35,12 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  
 }
+img {
+  width: 100px;
+  }
+  .fake {
+    width: 700px;
+  }
 </style>
