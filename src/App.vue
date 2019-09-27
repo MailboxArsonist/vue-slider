@@ -1,18 +1,84 @@
 <template>
   <div id="app">
-    <div class="fake">
-      <template name="cards">
-        <img alt="Vue logo" src="./assets/logo.png" />
-        <img alt="Vue logo" src="./assets/logo.png" />
-        <img alt="Vue logo" src="./assets/logo.png" />
-        <img alt="Vue logo" src="./assets/logo.png" />
-        <img alt="Vue logo" src="./assets/logo.png" />
-        <img alt="Vue logo" src="./assets/logo.png" />
+    <slider class="fake" v-bind:settings="{
+       perView: 2,
+      }">
+      <template #cards>
+        <div class="slider-card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png"  />
+          <p>Test inside</p>
+        </div>
+        <div class="slider-card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png"  />
+          <p>Test inside</p>
+        </div>
+        <div class="slider-card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>Test inside</p>
+        </div>
+        <div class="slider-card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>Test inside</p>
+        </div>
+        <div class="slider-card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>Test inside</p>
+        </div>
+        <div class="slider-card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>Test inside</p>
+        </div>
+        <div class="slider-card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>Test inside</p>
+        </div>
+        <div class="slider-card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>Test inside</p>
+        </div>
+        <div class="slider-card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>Test inside</p>
+        </div>
+        <div class="slider-card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>Test inside</p>
+        </div>
+        <div class="slider-card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>Test inside</p>
+        </div>
+        <div class="slider-card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>Test inside</p>
+        </div>
+        <div class="slider-card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>Test inside</p>
+        </div>
+        <div class="slider-card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>Test inside</p>
+        </div>
+        <div class="slider-card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>Test inside</p>
+        </div>
+        <div class="slider-card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>Test inside</p>
+        </div>
+        <div class="slider-card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>Test inside</p>
+        </div>
+        <div class="slider-card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>Test inside</p>
+        </div>
       </template>
-      <template name="bullets">
-
-      </template>
-    </div>
+    </slider>
+    
   </div>
 </template>
 
@@ -38,9 +104,9 @@ export default {
   
 }
 img {
-  width: 100px;
+  width: 100%;
   }
   .fake {
-    width: 700px;
+    width: 500px;
   }
 </style>
