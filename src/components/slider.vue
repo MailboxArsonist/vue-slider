@@ -3,11 +3,15 @@
     <div ref="sliderTrack" class="slider-container">
       <div ref="cardsContainer" class="slider-container-cards" v-on:scroll="handleScroll">
         <slot name="cards" />
+        <div 
+          v-if="extraSpaceNeeded"
+          class="card-placeholder"
+          :style="{width: extraSpace + 'px'}" />
       </div>
       <div class="slider-container-bullets">
         <span 
-          v-for="index in amountOfSlides" 
-          :key="index"
+          v-for="(n, index) in amountOfSlides" 
+          :key="n"
           :class="{
             'slider-bullet--active' : bulletActive === index
           }"
@@ -31,8 +35,9 @@ export default {
   data: () => ({
     containerWidth: null,
     amountOfSlides: 0,
-    bulletActive: 1,
-    slideWidth: 0
+    bulletActive: 0,
+    slideWidth: 0,
+    extraSpaceNeeded: true,
   }),
   created(){
     const { perView } = this.slideSettings
@@ -50,17 +55,22 @@ export default {
   computed: {
     slideSettings(){
       return { ...this.settings }
+    },
+    extraSpace(){
+      return this.slideWidth * (this.slideSettings.perView - 1)
     }
   },
   methods: {
     handleScroll(evt){
       // window.addEventListener("touchend", window.removeEventListener("touchend"))
-      console.log(evt.target.scrollLeft)
-      this.bulletActive = Math.floor(evt.target.scrollLeft / this.slideWidth) + 1
+      console.log('in the scroll')
+      this.bulletActive = Math.round(evt.target.scrollLeft / this.slideWidth)
     },
     bulletClick(bulletClicked){
-      console.log(bulletClicked)
-      console.log(this.$refs.cardsContainer.scrollLeft)
+      console.log('bul clicked:'+bulletClicked)
+      const goTo = bulletClicked * this.slideWidth
+      console.log('goto: ' + goTo)
+      this.$refs.cardsContainer.scrollLeft = Math.round(bulletClicked * this.slideWidth) 
     }
   }
 }
@@ -80,6 +90,7 @@ export default {
     overflow-x: scroll; /* has to be scroll, not auto */
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
+    scroll-behavior: smooth;
   
   }
   .slider-card {
@@ -92,6 +103,10 @@ export default {
     flex-shrink: 0;
     flex: 0 0 auto;
     box-sizing: border-box;
+  }
+  .card-placeholder {
+    flex: 0 0 auto;
+    background: transparent;
   }
   .slider-bullet {
     width: 10px;
@@ -110,4 +125,5 @@ export default {
   .slider-bullet--active {
     background: blue;
   }
+
 </style>

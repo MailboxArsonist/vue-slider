@@ -1,9 +1,13 @@
 <template>
   <div id="app">
     <slider class="fake" v-bind:settings="{
-       perView: 2,
+       perView: 4,
       }">
       <template #cards>
+        <div class="slider-card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png"  />
+          <p>Test inside</p>
+        </div>
         <div class="slider-card" ref="test">
           <img alt="Vue logo" src="./assets/logo.png"  />
           <p>Test inside</p>
@@ -107,6 +111,6 @@ img {
   width: 100%;
   }
   .fake {
-    width: 500px;
+    width: 700px;
   }
 </style>
