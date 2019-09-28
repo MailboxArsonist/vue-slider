@@ -112,7 +112,7 @@ export default {
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
-    padding: 0.5em 0;
+    padding: 1em 0;
   }
   .slider__bullet {
     width: 10px;
