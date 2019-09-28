@@ -1,7 +1,335 @@
 <template>
   <div id="app">
     <slider class="fake" :settings="{
+       perView: 3,
+      }">
+      <template #cards>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png"  />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png"  />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png"  />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+      </template>
+    </slider>
+    <slider class="fake" :settings="{
+       perView: 2,
+      }">
+      <template #cards>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png"  />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png"  />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png"  />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+      </template>
+    </slider>
+    <slider class="fake" :settings="{
+       perView: 2.5,
+      }">
+      <template #cards>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png"  />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png"  />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png"  />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+      </template>
+    </slider>
+    <slider class="fake" :settings="{
        perView: 4,
+      }">
+      <template #cards>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png"  />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png"  />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png"  />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+        <div class="slider__card" ref="test">
+          <img alt="Vue logo" src="./assets/logo.png" />
+          <p>A bunch of placeholder text :) </p>
+        </div>
+      </template>
+    </slider>
+    <slider class="fake" :settings="{
+       perView: 5,
       }">
       <template #cards>
         <div class="slider__card" ref="test">
@@ -97,7 +425,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -112,5 +440,10 @@ img {
   }
   .fake {
     width: 700px;
+    margin: 2em auto;
+    @media (max-width: 800px) {
+      width: 80%; 
+      background: red;  
+    }
   }
 </style>
