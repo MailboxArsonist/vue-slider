@@ -1,22 +1,22 @@
 <template>
-  <div id="touchable">
-    <div ref="sliderTrack" class="slider-container">
-      <div ref="cardsContainer" class="slider-container-cards" v-on:scroll="handleScroll">
+  <div id="slider__app">
+    <div ref="sliderTrack" class="slider__container">
+      <div ref="cardsContainer" class="slider__container__cards" v-on:scroll="handleScroll">
         <slot name="cards" />
         <div 
           v-if="extraSpaceNeeded"
-          class="card-placeholder"
+          class="slider__card__placeholder"
           :style="{width: extraSpace + 'px'}" />
       </div>
-      <div class="slider-container-bullets">
+      <div class="slider__container__bullets">
         <span 
           v-for="(n, index) in amountOfSlides" 
           :key="n"
           :class="{
-            'slider-bullet--active' : bulletActive === index
+            'slider__bullet__active' : bulletActive === index
           }"
           @click="bulletClick(index)"
-          class="slider-bullet" />
+          class="slider__bullet" />
       </div>
     </div>
   </div>
@@ -41,10 +41,9 @@ export default {
   }),
   created(){
     const { perView } = this.slideSettings
-    // document.querySelector('.slider-container-cards').addEventListener('scroll', this.handleScroll)
     this.$nextTick(function() {
       this.containerWidth = this.$refs.sliderTrack.clientWidth
-      const cards = this.$refs.sliderTrack.querySelectorAll('.slider-card')
+      const cards = this.$refs.sliderTrack.querySelectorAll('.slider__card')
       this.amountOfSlides = cards.length
       this.slideWidth = this.containerWidth / perView
       cards.forEach(card => {
@@ -62,38 +61,37 @@ export default {
   },
   methods: {
     handleScroll(evt){
-      // window.addEventListener("touchend", window.removeEventListener("touchend"))
-      console.log('in the scroll')
       this.bulletActive = Math.round(evt.target.scrollLeft / this.slideWidth)
     },
     bulletClick(bulletClicked){
-      console.log('bul clicked:'+bulletClicked)
       const goTo = bulletClicked * this.slideWidth
-      console.log('goto: ' + goTo)
       this.$refs.cardsContainer.scrollLeft = Math.round(bulletClicked * this.slideWidth) 
     }
   }
 }
 </script>
 <style lang="scss">
-  #touchable {
+  #slider__app {
     background-color: #fefefe;
     color: black;
     height: auto;
     overflow: hidden;
   }
-  .slider-container-cards {
+  .slider__container__cards {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     overflow-y: hidden;
-    overflow-x: scroll; /* has to be scroll, not auto */
+    overflow-x: scroll;
     -webkit-overflow-scrolling: touch;
-    scrollbar-width: none;
     scroll-behavior: smooth;
+    scrollbar-width: none;
+    &::-webkit-scrollbar {
+      display: none;
+    }
   
   }
-  .slider-card {
+  .slider__card {
     background: #fff;
     padding: 0.4em 0.5em;
     display: flex;
@@ -104,11 +102,19 @@ export default {
     flex: 0 0 auto;
     box-sizing: border-box;
   }
-  .card-placeholder {
+  .slider__card__placeholder {
     flex: 0 0 auto;
     background: transparent;
   }
-  .slider-bullet {
+  .slider__container__bullets {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 0.5em 0;
+  }
+  .slider__bullet {
     width: 10px;
     height: 10px;
     padding: 0;
@@ -120,10 +126,10 @@ export default {
     box-shadow: 0 .25em .5em 0 rgba(0,0,0,.1);
     margin: 0 .25em;
     display: inline-block;
-    background: red;
+    background: #fefefe;
   }
-  .slider-bullet--active {
-    background: blue;
+  .slider__bullet__active {
+    background: #42b883;
   }
 
 </style>

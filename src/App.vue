@@ -1,84 +1,84 @@
 <template>
   <div id="app">
-    <slider class="fake" v-bind:settings="{
+    <slider class="fake" :settings="{
        perView: 4,
       }">
       <template #cards>
-        <div class="slider-card" ref="test">
+        <div class="slider__card" ref="test">
           <img alt="Vue logo" src="./assets/logo.png"  />
-          <p>Test inside</p>
+          <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider-card" ref="test">
+        <div class="slider__card" ref="test">
           <img alt="Vue logo" src="./assets/logo.png"  />
-          <p>Test inside</p>
+          <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider-card" ref="test">
+        <div class="slider__card" ref="test">
           <img alt="Vue logo" src="./assets/logo.png"  />
-          <p>Test inside</p>
+          <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider-card" ref="test">
+        <div class="slider__card" ref="test">
           <img alt="Vue logo" src="./assets/logo.png" />
-          <p>Test inside</p>
+          <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider-card" ref="test">
+        <div class="slider__card" ref="test">
           <img alt="Vue logo" src="./assets/logo.png" />
-          <p>Test inside</p>
+          <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider-card" ref="test">
+        <div class="slider__card" ref="test">
           <img alt="Vue logo" src="./assets/logo.png" />
-          <p>Test inside</p>
+          <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider-card" ref="test">
+        <div class="slider__card" ref="test">
           <img alt="Vue logo" src="./assets/logo.png" />
-          <p>Test inside</p>
+          <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider-card" ref="test">
+        <div class="slider__card" ref="test">
           <img alt="Vue logo" src="./assets/logo.png" />
-          <p>Test inside</p>
+          <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider-card" ref="test">
+        <div class="slider__card" ref="test">
           <img alt="Vue logo" src="./assets/logo.png" />
-          <p>Test inside</p>
+          <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider-card" ref="test">
+        <div class="slider__card" ref="test">
           <img alt="Vue logo" src="./assets/logo.png" />
-          <p>Test inside</p>
+          <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider-card" ref="test">
+        <div class="slider__card" ref="test">
           <img alt="Vue logo" src="./assets/logo.png" />
-          <p>Test inside</p>
+          <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider-card" ref="test">
+        <div class="slider__card" ref="test">
           <img alt="Vue logo" src="./assets/logo.png" />
-          <p>Test inside</p>
+          <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider-card" ref="test">
+        <div class="slider__card" ref="test">
           <img alt="Vue logo" src="./assets/logo.png" />
-          <p>Test inside</p>
+          <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider-card" ref="test">
+        <div class="slider__card" ref="test">
           <img alt="Vue logo" src="./assets/logo.png" />
-          <p>Test inside</p>
+          <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider-card" ref="test">
+        <div class="slider__card" ref="test">
           <img alt="Vue logo" src="./assets/logo.png" />
-          <p>Test inside</p>
+          <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider-card" ref="test">
+        <div class="slider__card" ref="test">
           <img alt="Vue logo" src="./assets/logo.png" />
-          <p>Test inside</p>
+          <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider-card" ref="test">
+        <div class="slider__card" ref="test">
           <img alt="Vue logo" src="./assets/logo.png" />
-          <p>Test inside</p>
+          <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider-card" ref="test">
+        <div class="slider__card" ref="test">
           <img alt="Vue logo" src="./assets/logo.png" />
-          <p>Test inside</p>
+          <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider-card" ref="test">
+        <div class="slider__card" ref="test">
           <img alt="Vue logo" src="./assets/logo.png" />
-          <p>Test inside</p>
+          <p>A bunch of placeholder text :) </p>
         </div>
       </template>
     </slider>
