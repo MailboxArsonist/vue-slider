@@ -127,6 +127,9 @@ export default {
     margin: 0 .25em;
     display: inline-block;
     background: #fefefe;
+    &:hover {
+      background: #42b883;
+    }
   }
   .slider__bullet__active {
     background: #42b883;
