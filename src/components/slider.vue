@@ -40,16 +40,8 @@ export default {
     extraSpaceNeeded: true,
   }),
   created(){
-    const { perView } = this.slideSettings
-    this.$nextTick(function() {
-      this.containerWidth = this.$refs.sliderTrack.clientWidth
-      const cards = this.$refs.sliderTrack.querySelectorAll('.slider__card')
-      this.amountOfSlides = cards.length
-      this.slideWidth = this.containerWidth / perView
-      cards.forEach(card => {
-        card.style.width = `${this.slideWidth}px`
-        })
-    });
+    window.addEventListener("resize", this.resizeSlides)
+    this.$nextTick(this.resizeSlides);
   },
   computed: {
     slideSettings(){
@@ -64,8 +56,17 @@ export default {
       this.bulletActive = Math.round(evt.target.scrollLeft / this.slideWidth)
     },
     bulletClick(bulletClicked){
-      const goTo = bulletClicked * this.slideWidth
       this.$refs.cardsContainer.scrollLeft = Math.round(bulletClicked * this.slideWidth) 
+    },
+    resizeSlides(){
+      const { perView } = this.slideSettings
+      this.containerWidth = this.$refs.sliderTrack.clientWidth
+      const cards = this.$refs.sliderTrack.querySelectorAll('.slider__card')
+      this.amountOfSlides = cards.length
+      this.slideWidth = this.containerWidth / perView
+      cards.forEach(card => {
+        card.style.width = `${this.slideWidth}px`
+        })
     }
   }
 }
