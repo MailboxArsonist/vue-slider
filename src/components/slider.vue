@@ -38,18 +38,25 @@ export default {
     bulletActive: 0,
     slideWidth: 0,
     extraSpaceNeeded: true,
+    windowWidth: null,
+    perView: null
   }),
   created(){
-    window.addEventListener("resize", this.resizeSlides)
-    this.$nextTick(this.resizeSlides);
+    window.addEventListener("resize", evt => this.windowWidth = window.innerWidth)
+    // this.$nextTick(this.resizeSlides);
+    this.windowWidth = window.innerWidth
   },
+  mounted(){ this.resizeSlides() },
   computed: {
     slideSettings(){
       return { ...this.settings }
     },
     extraSpace(){
-      return this.slideWidth * (this.slideSettings.perView - 1)
+      return this.slideWidth * (this.perView - 1)
     }
+  },
+  watch: {
+    windowWidth(){this.resizeSlides()}
   },
   methods: {
     handleScroll(evt){
@@ -59,11 +66,21 @@ export default {
       this.$refs.cardsContainer.scrollLeft = Math.round(bulletClicked * this.slideWidth) 
     },
     resizeSlides(){
-      const { perView } = this.slideSettings
       this.containerWidth = this.$refs.sliderTrack.clientWidth
+      const { perView, breakpoints } = this.slideSettings
+      this.perView = perView
+      if(breakpoints){
+        const mqs = Object.entries(breakpoints)
+        for( const [ mq, value ] of mqs) {
+          if(this.windowWidth <= mq) {
+            this.perView = value.perView
+            break
+          }
+        }
+      }
       const cards = this.$refs.sliderTrack.querySelectorAll('.slider__card')
       this.amountOfSlides = cards.length
-      this.slideWidth = this.containerWidth / perView
+      this.slideWidth = this.containerWidth / this.perView
       cards.forEach(card => {
         card.style.width = `${this.slideWidth}px`
         })
