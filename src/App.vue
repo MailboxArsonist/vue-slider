@@ -4,79 +4,79 @@
        perView: 3,
       }">
       <template #cards>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png"  />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png"  />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png"  />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
@@ -86,79 +86,79 @@
        perView: 2,
       }">
       <template #cards>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png"  />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png"  />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png"  />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
@@ -168,79 +168,79 @@
        perView: 2.5,
       }">
       <template #cards>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png"  />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png"  />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png"  />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
@@ -250,79 +250,79 @@
        perView: 4,
       }">
       <template #cards>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png"  />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png"  />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png"  />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
@@ -332,79 +332,79 @@
        perView: 5,
       }">
       <template #cards>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png"  />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png"  />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png"  />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" ref="test">
+        <div class="slider__card" >
           <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
