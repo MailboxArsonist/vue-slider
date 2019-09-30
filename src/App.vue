@@ -10,79 +10,55 @@
       }">
       <template #cards>
         <div class="slider__card" >
-          <img alt="Vue logo" src="./assets/logo.png"  />
+          <img alt="Vue logo" src="./assets/logo.png" draggable="true" />
           <p>A bunch of placeholder text :) </p>
         </div>
         <div class="slider__card" >
-          <img alt="Vue logo" src="./assets/logo.png"  />
+          <img alt="Vue logo" src="./assets/logo.png" draggable="true" />
           <p>A bunch of placeholder text :) </p>
         </div>
         <div class="slider__card" >
-          <img alt="Vue logo" src="./assets/logo.png"  />
+          <img alt="Vue logo" src="./assets/logo.png" draggable="true" />
           <p>A bunch of placeholder text :) </p>
         </div>
         <div class="slider__card" >
-          <img alt="Vue logo" src="./assets/logo.png" />
+          <img alt="Vue logo" src="./assets/logo.png" draggable="true" />
           <p>A bunch of placeholder text :) </p>
         </div>
         <div class="slider__card" >
-          <img alt="Vue logo" src="./assets/logo.png" />
+          <img alt="Vue logo" src="./assets/logo.png" draggable="true" />
           <p>A bunch of placeholder text :) </p>
         </div>
         <div class="slider__card" >
-          <img alt="Vue logo" src="./assets/logo.png" />
+          <img alt="Vue logo" src="./assets/logo.png" draggable="true" />
           <p>A bunch of placeholder text :) </p>
         </div>
         <div class="slider__card" >
-          <img alt="Vue logo" src="./assets/logo.png" />
+          <img alt="Vue logo" src="./assets/logo.png" draggable="true" />
           <p>A bunch of placeholder text :) </p>
         </div>
         <div class="slider__card" >
-          <img alt="Vue logo" src="./assets/logo.png" />
+          <img alt="Vue logo" src="./assets/logo.png" draggable="true" />
           <p>A bunch of placeholder text :) </p>
         </div>
         <div class="slider__card" >
-          <img alt="Vue logo" src="./assets/logo.png" />
+          <img alt="Vue logo" src="./assets/logo.png" draggable="true" />
           <p>A bunch of placeholder text :) </p>
         </div>
         <div class="slider__card" >
-          <img alt="Vue logo" src="./assets/logo.png" />
+          <img alt="Vue logo" src="./assets/logo.png" draggable="true" />
           <p>A bunch of placeholder text :) </p>
         </div>
         <div class="slider__card" >
-          <img alt="Vue logo" src="./assets/logo.png" />
+          <img alt="Vue logo" src="./assets/logo.png" draggable="true" />
           <p>A bunch of placeholder text :) </p>
         </div>
         <div class="slider__card" >
-          <img alt="Vue logo" src="./assets/logo.png" />
+          <img alt="Vue logo" src="./assets/logo.png" draggable="true" />
           <p>A bunch of placeholder text :) </p>
         </div>
         <div class="slider__card" >
-          <img alt="Vue logo" src="./assets/logo.png" />
-          <p>A bunch of placeholder text :) </p>
-        </div>
-        <div class="slider__card" >
-          <img alt="Vue logo" src="./assets/logo.png" />
-          <p>A bunch of placeholder text :) </p>
-        </div>
-        <div class="slider__card" >
-          <img alt="Vue logo" src="./assets/logo.png" />
-          <p>A bunch of placeholder text :) </p>
-        </div>
-        <div class="slider__card" >
-          <img alt="Vue logo" src="./assets/logo.png" />
-          <p>A bunch of placeholder text :) </p>
-        </div>
-        <div class="slider__card" >
-          <img alt="Vue logo" src="./assets/logo.png" />
-          <p>A bunch of placeholder text :) </p>
-        </div>
-        <div class="slider__card" >
-          <img alt="Vue logo" src="./assets/logo.png" />
-          <p>A bunch of placeholder text :) </p>
-        </div>
-        <div class="slider__card" >
-          <img alt="Vue logo" src="./assets/logo.png" />
+          <img alt="Vue logo" src="./assets/logo.png" draggable="true" />
           <p>A bunch of placeholder text :) </p>
         </div>
       </template>
@@ -118,8 +94,7 @@ img {
     width: 700px;
     margin: 2em auto;
     @media (max-width: 800px) {
-      width: 80%; 
-      background: red;  
+      width: 80%;
     }
   }
 </style>

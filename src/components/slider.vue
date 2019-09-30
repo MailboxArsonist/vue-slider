@@ -39,14 +39,19 @@ export default {
     slideWidth: 0,
     extraSpaceNeeded: true,
     windowWidth: null,
-    perView: null
+    perView: null,
+    from: 0,
   }),
   created(){
     window.addEventListener("resize", () => this.windowWidth = window.innerWidth)
     // this.$nextTick(this.resizeSlides);
     this.windowWidth = window.innerWidth
   },
-  mounted(){ this.resizeSlides() },
+  mounted(){ 
+    this.resizeSlides() 
+    this.$refs.cardsContainer.addEventListener('dragstart', this.startMove)
+    this.$refs.cardsContainer.addEventListener('dragend', this.endMove)
+  },
   computed: {
     slideSettings(){
       return { ...this.settings }
@@ -59,6 +64,17 @@ export default {
     windowWidth(){this.resizeSlides()}
   },
   methods: {
+    startMove(e){
+      this.from = e.screenX
+    },
+    endMove(e){
+      if(e.screenX > this.from){
+        this.$refs.cardsContainer.scrollLeft = Math.round(this.$refs.cardsContainer.scrollLeft + (this.from - e.screenX))
+      }else {
+        this.$refs.cardsContainer.scrollLeft = Math.round(this.$refs.cardsContainer.scrollLeft - (e.screenX - this.from)) < 0 ? 0 : Math.round((this.$refs.cardsContainer.scrollLeft - (e.screenX - this.from)) / this.slideWidth) * this.slideWidth
+      }
+      this.from = 0
+    },
     handleScroll(evt){
       this.bulletActive = Math.round(evt.target.scrollLeft / this.slideWidth)
     },
@@ -90,7 +106,6 @@ export default {
 </script>
 <style lang="scss">
   #slider__app {
-    background-color: #fefefe;
     color: black;
     height: auto;
     overflow: hidden;
@@ -110,7 +125,6 @@ export default {
   
   }
   .slider__card {
-    background: #fff;
     padding: 0.4em 0.5em;
     display: flex;
     flex-direction: column;
@@ -144,7 +158,9 @@ export default {
     box-shadow: 0 .25em .5em 0 rgba(0,0,0,.1);
     margin: 0 .25em;
     display: inline-block;
-    background: #fefefe;
+    background: black;
+    box-sizing: border-box;
+    flex-shrink: 0;
     &:hover {
       background: #42b883;
     }
