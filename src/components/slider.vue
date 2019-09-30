@@ -42,7 +42,7 @@ export default {
     perView: null
   }),
   created(){
-    window.addEventListener("resize", evt => this.windowWidth = window.innerWidth)
+    window.addEventListener("resize", () => this.windowWidth = window.innerWidth)
     // this.$nextTick(this.resizeSlides);
     this.windowWidth = window.innerWidth
   },
