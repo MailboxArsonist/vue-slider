@@ -65,13 +65,16 @@ export default {
   },
   methods: {
     startMove(e){
+      this.$refs.cardsContainer.classList.add('slider__card__grabbing')
       this.from = e.screenX
     },
     endMove(e){
       if(e.screenX > this.from){
-        this.$refs.cardsContainer.scrollLeft = Math.round(this.$refs.cardsContainer.scrollLeft + (this.from - e.screenX))
-      }else {
-        this.$refs.cardsContainer.scrollLeft = Math.round(this.$refs.cardsContainer.scrollLeft - (e.screenX - this.from)) < 0 ? 0 : Math.round((this.$refs.cardsContainer.scrollLeft - (e.screenX - this.from)) / this.slideWidth) * this.slideWidth
+        // Move backwards
+        this.$refs.cardsContainer.scrollLeft = Math.round(this.$refs.cardsContainer.scrollLeft + (this.from - e.screenX)) < 0 ? 0 : Math.round((this.$refs.cardsContainer.scrollLeft + (this.from - e.screenX)) / this.slideWidth) * this.slideWidth
+      } else {
+        // Move forwards
+        this.$refs.cardsContainer.scrollLeft = Math.round((this.$refs.cardsContainer.scrollLeft - (e.screenX - this.from)) / this.slideWidth) * this.slideWidth
       }
       this.from = 0
     },
@@ -132,7 +135,11 @@ export default {
     align-items: center;
     flex-shrink: 0;
     flex: 0 0 auto;
+    cursor: grab;
     box-sizing: border-box;
+  }
+  .slider__card__grabbing {
+    cursor: grabbing;
   }
   .slider__card__placeholder {
     flex: 0 0 auto;

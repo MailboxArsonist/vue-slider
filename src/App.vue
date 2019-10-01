@@ -9,58 +9,43 @@
         }
       }">
       <template #cards>
-        <div class="slider__card" >
-          <img alt="Vue logo" src="./assets/logo.png" draggable="true" />
+        <div class="slider__card" draggable="true">
+          <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" >
-          <img alt="Vue logo" src="./assets/logo.png" draggable="true" />
+        <div class="slider__card" draggable="true">
+          <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" >
-          <img alt="Vue logo" src="./assets/logo.png" draggable="true" />
+        <div class="slider__card" draggable="true">
+          <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" >
-          <img alt="Vue logo" src="./assets/logo.png" draggable="true" />
+        <div class="slider__card" draggable="true">
+          <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" >
-          <img alt="Vue logo" src="./assets/logo.png" draggable="true" />
+        <div class="slider__card" draggable="true">
+          <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" >
-          <img alt="Vue logo" src="./assets/logo.png" draggable="true" />
+        <div class="slider__card" draggable="true">
+          <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" >
-          <img alt="Vue logo" src="./assets/logo.png" draggable="true" />
+        <div class="slider__card" draggable="true">
+          <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" >
-          <img alt="Vue logo" src="./assets/logo.png" draggable="true" />
+        <div class="slider__card" draggable="true">
+          <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" >
-          <img alt="Vue logo" src="./assets/logo.png" draggable="true" />
+        <div class="slider__card" draggable="true">
+          <img alt="Vue logo" src="./assets/logo.png" />
           <p>A bunch of placeholder text :) </p>
         </div>
-        <div class="slider__card" >
-          <img alt="Vue logo" src="./assets/logo.png" draggable="true" />
-          <p>A bunch of placeholder text :) </p>
-        </div>
-        <div class="slider__card" >
-          <img alt="Vue logo" src="./assets/logo.png" draggable="true" />
-          <p>A bunch of placeholder text :) </p>
-        </div>
-        <div class="slider__card" >
-          <img alt="Vue logo" src="./assets/logo.png" draggable="true" />
-          <p>A bunch of placeholder text :) </p>
-        </div>
-        <div class="slider__card" >
-          <img alt="Vue logo" src="./assets/logo.png" draggable="true" />
-          <p>A bunch of placeholder text :) </p>
-        </div>
+
       </template>
     </slider>
   </div>
