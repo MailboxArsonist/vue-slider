@@ -16,6 +16,8 @@
             'slider__bullet__active' : bulletActive === index
           }"
           @click="bulletClick(index)"
+          @mouseenter="hover"
+          @mouseleave="hover"
           class="slider__bullet" />
       </div>
     </div>
@@ -72,6 +74,10 @@ export default {
     startMove(e){
       this.$refs.cardsContainer.classList.add('slider__card__grabbing')
       this.from = e.screenX
+    },
+    hover(e){
+      let isMobile = window.matchMedia('(max-width: 500px)')
+      if(!isMobile.matches) e.target.classList.toggle('slider__bullet__hover')
     },
     endMove(e){
       if(e.screenX > this.from){
@@ -173,9 +179,9 @@ export default {
     background: black;
     box-sizing: border-box;
     flex-shrink: 0;
-    &:hover {
-      background: #42b883;
-    }
+  }
+  .slider__bullet__hover {
+    border-color: #42b883;
   }
   .slider__bullet__active {
     background: #42b883;
