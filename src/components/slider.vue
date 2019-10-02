@@ -52,6 +52,11 @@ export default {
     this.$refs.cardsContainer.addEventListener('dragstart', this.startMove)
     this.$refs.cardsContainer.addEventListener('dragend', this.endMove)
   },
+  destroyed(){
+    this.$refs.cardsContainer.removeEventListener('dragstart', this.startMove)
+    this.$refs.cardsContainer.removeEventListener('dragend', this.endMove)
+    window.removeEventListener("resize", () => this.windowWidth = window.innerWidth)
+  },
   computed: {
     slideSettings(){
       return { ...this.settings }
